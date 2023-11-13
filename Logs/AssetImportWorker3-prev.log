@@ -1,0 +1,1727 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/LegoGameIfWorks
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55038
+Successfully changed project path to: C:/LegoGameIfWorks
+C:/LegoGameIfWorks
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 167.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/LegoGameIfWorks/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.032917 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 148.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (141ms)
+					TypeCache.ScanAssembly (139ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\LegoGameIfWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\LegoGameIfWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 151.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1882ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1579ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+				TypeCache.Initialize (358ms)
+					TypeCache.ScanAssembly (351ms)
+				ResolveRequiredComponents (14ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (910ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (152ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6254 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.9 MB). Loaded Objects now: 6701.
+Memory consumption went from 0.97 GB to 0.97 GB.
+Total: 4.901500 ms (FindLiveObjects: 0.675300 ms CreateObjectMapping: 0.475000 ms MarkObjects: 3.261900 ms  DeleteObjects: 0.488300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 591884.964911 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/fantasy_island_heightmap.png
+  artifactKey: Guid(187afe5ca0307ba419a4c82a6abb1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/fantasy_island_heightmap.png using Guid(187afe5ca0307ba419a4c82a6abb1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7672ebaddc3c45eddc49b67883070ae5') in 0.096394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.134436 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Dirt_Material_Albedo.png
+  artifactKey: Guid(01f2730b20faf5a48aaa88dcad3f591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Dirt_Material_Albedo.png using Guid(01f2730b20faf5a48aaa88dcad3f591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56600a7bdc0e589790a2aa3bb0c99a2c') in 0.079979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Sand_Leaves_Yellow_Material_Albedo.png
+  artifactKey: Guid(d911797cd84c55842873e2633c17596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Sand_Leaves_Yellow_Material_Albedo.png using Guid(d911797cd84c55842873e2633c17596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44160c78d5d5f1cf2f376112c5077867') in 0.050353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Snow_Material_AO.png
+  artifactKey: Guid(fc0bc9b7fac4798468b66cb501f2f056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Snow_Material_AO.png using Guid(fc0bc9b7fac4798468b66cb501f2f056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270516a7f89005393aa95ebebba9a320') in 0.046700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Material_Normal.png
+  artifactKey: Guid(d6b4197c999444346b7bfa981041fa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Material_Normal.png using Guid(d6b4197c999444346b7bfa981041fa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79729a0302b514dae2cbc7c6119b07d7') in 0.118823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Sand_Leaves_Green_Material_Normal.png
+  artifactKey: Guid(5e9cb2f9d012a34479d184df86a30a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Sand_Leaves_Green_Material_Normal.png using Guid(5e9cb2f9d012a34479d184df86a30a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399b806833cbaa821b4aaa5665c8de88') in 0.044838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Green_Material_Albedo.png
+  artifactKey: Guid(d9999dfa56d93b94f86062e1c63b7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Green_Material_Albedo.png using Guid(d9999dfa56d93b94f86062e1c63b7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00e288b2bb96864768d8ef7e1071a99') in 0.083061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Yellow_Material_Albedo.png
+  artifactKey: Guid(746cce87a13ed7b4a905cd1d84f71f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Yellow_Material_Albedo.png using Guid(746cce87a13ed7b4a905cd1d84f71f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7efcce71cce80f4696752cab5ca331') in 0.043004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Green_Material_AO.png
+  artifactKey: Guid(1ff728ddfcaa7f540bc8e47e9b784d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Leaves_Green_Material_AO.png using Guid(1ff728ddfcaa7f540bc8e47e9b784d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0706c4008645c5868318b41140739ab') in 0.066718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Dirt_Rocks_Material_Normal.png
+  artifactKey: Guid(1e87721016dd1e64ba462f5e9f24bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Dirt_Rocks_Material_Normal.png using Guid(1e87721016dd1e64ba462f5e9f24bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6103913af0acc8080b3ba454b7cae801') in 0.104692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Rocks_Material_AO.png
+  artifactKey: Guid(7408675bd209b6647b7210058ccc293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Rocks_Material_AO.png using Guid(7408675bd209b6647b7210058ccc293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab0d0bb59a9ea0637e43fe04b30eba') in 0.040459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Rocks_Material_Normal.png
+  artifactKey: Guid(2ba473b362792f84fab96c10dcbde87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/ground/Ground_Grass_Rocks_Material_Normal.png using Guid(2ba473b362792f84fab96c10dcbde87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe036e51f6f657464251fe583272b1c') in 0.107540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.169187 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Normal_Yellow_Material_AO.png
+  artifactKey: Guid(45466d571d024f74aa7ef4d65ef45eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Normal_Yellow_Material_AO.png using Guid(45466d571d024f74aa7ef4d65ef45eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f6670ec8b251cd68cd762dd51177b0') in 0.156628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Pine_Material_AO.png
+  artifactKey: Guid(259300c289afc144596349f81d640db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Pine_Material_AO.png using Guid(259300c289afc144596349f81d640db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a99421e216589defc1e0b86a3e921e') in 0.156102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Weeping_Willow_Material_Albedo.png
+  artifactKey: Guid(db7ed30986b220341bd2d5bfc6947a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Weeping_Willow_Material_Albedo.png using Guid(db7ed30986b220341bd2d5bfc6947a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865be8191983f4735a1875eb814680be') in 0.238618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Weeping_Willow_Yellow_Material_Normal.png
+  artifactKey: Guid(e3d72af8634bd2044959efae34b56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Weeping_Willow_Yellow_Material_Normal.png using Guid(e3d72af8634bd2044959efae34b56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec041be8b24443d3aec46bafd8a1ecd') in 0.177537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776ed5322d7651361d109f91a371a03a') in 0.046223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Pine_Snow_Material_Albedo.png
+  artifactKey: Guid(f3cc801e9767af245bb8e8a719d363ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Textures/leaves/Branch_Leaves_Pine_Snow_Material_Albedo.png using Guid(f3cc801e9767af245bb8e8a719d363ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b1f74184dc84c08b1479dfa0968b50') in 0.263296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b724019839499d1bc203eb95561a6205') in 0.017199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.129365 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
+  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb00f00c6f24cb16d1f7b265a7230ee') in 0.073791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5e8e2491bdb14c65ffbc909a974284') in 0.060721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042563 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
+  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b03ef1bb2f9d55b0c2646fed539d14') in 0.018253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164444 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd
+  artifactKey: Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd using Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb79fc97cf3c824cb0d1b8beb4cd42fb') in 0.050356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161492 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63307d4691acc62d205c4cd199cb68b') in 0.082094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Catamaran-Bold SDF.asset
+  artifactKey: Guid(a14e522e426f5472a8c9710aa5b252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Catamaran-Bold SDF.asset using Guid(a14e522e426f5472a8c9710aa5b252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f549af582b9588dcc453b79d2895de') in 1.514119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.915045 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png
+  artifactKey: Guid(98eea3a123f8b4c468b7e43d0ff3c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png using Guid(98eea3a123f8b4c468b7e43d0ff3c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6829914b70e5f8bcab9309c55954aa6') in 0.031125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png
+  artifactKey: Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png using Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8b3785ab37e3492675f745a8c98958') in 0.043820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 469.701283 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(612a531a30fa3cc4685cb2681975ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(612a531a30fa3cc4685cb2681975ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree_hero_yellow couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_hero couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_birch_yellow couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_birch couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_pine couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_normal couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree tree_weeping_willow couldn't be instanced because the prefab contains no valid mesh renderer.
+ -> (artifact id: 'b2f3ebc55a5e74fcde2b7e8e0d84fca9') in 0.208926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10176.304851 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d639161.png
+  artifactKey: Guid(48c1e3fb1149a4b77a1af12e7f85f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d639161.png using Guid(48c1e3fb1149a4b77a1af12e7f85f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8ba6af3d12f8c59d11f282bc2f77e2') in 0.348008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643228.png
+  artifactKey: Guid(64fd41969950241cf9611a2e5ac56d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643228.png using Guid(64fd41969950241cf9611a2e5ac56d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3efea81d3a3423115017c858cc9fcca') in 0.067935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643189.png
+  artifactKey: Guid(b1fb441666c284aa98addef6b9c3b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643189.png using Guid(b1fb441666c284aa98addef6b9c3b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28364ede5c1904467d20de4829df16c8') in 0.038671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643189_2.png
+  artifactKey: Guid(d0f4dae4891cd42b09b10f90407c43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643189_2.png using Guid(d0f4dae4891cd42b09b10f90407c43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbef8919d68a0a1b8e875cd17be25ac') in 0.047958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d646404.png
+  artifactKey: Guid(4091e15e21d18482d8e89455b956b78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d646404.png using Guid(4091e15e21d18482d8e89455b956b78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109ce79c311cee791da43c5631a31160') in 0.029961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643478.png
+  artifactKey: Guid(0e885f2f801bd42059f520f4b4f65bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643478.png using Guid(0e885f2f801bd42059f520f4b4f65bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f023c7fe182acc5b553ae131f13324f1') in 0.030402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643278.png
+  artifactKey: Guid(3c34e0ccee42d4124a53ceb6e91263a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643278.png using Guid(3c34e0ccee42d4124a53ceb6e91263a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1168dc874448801200fd5aba37585e1') in 0.041816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643276.png
+  artifactKey: Guid(98e84c7eca56744e3b7f89ebff0946ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643276.png using Guid(98e84c7eca56744e3b7f89ebff0946ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a180b1dc20d0bb67ea36d0311b4b163b') in 0.728940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.373699 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/Nindroid/d640331.png
+  artifactKey: Guid(bb07b5f096d824f81911d992722774df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/Nindroid/d640331.png using Guid(bb07b5f096d824f81911d992722774df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917419f62b3aa12171b5a54e64d554ed') in 0.057783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.438856 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/UiHelpers/Images/ToggleOn.png
+  artifactKey: Guid(e97f44a089f144758b462da41bc96973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/UiHelpers/Images/ToggleOn.png using Guid(e97f44a089f144758b462da41bc96973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44291922c8dbe5643e4eb388499d2e12') in 0.245218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Touch Trigger.png
+  artifactKey: Guid(d3e91294b11524d4ebecfbe5cabf974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Touch Trigger.png using Guid(d3e91294b11524d4ebecfbe5cabf974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363e8ada227ed3b8c5abb6982b86e65f') in 0.042682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/NormalMaps/Torso_Front.png
+  artifactKey: Guid(47aa900b62d4c41a6b054868d32ca731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Torso_Front.png using Guid(47aa900b62d4c41a6b054868d32ca731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a7b1b4ea0eb8491b818464e8083e07') in 0.124431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/LEGO Data/NormalMaps/Torso_Main.png
+  artifactKey: Guid(20ef19f902bd34cf58287ac544aff39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Torso_Main.png using Guid(20ef19f902bd34cf58287ac544aff39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3455a42e77aea3dbe810a729c1d0f2e') in 0.098851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.464006 seconds.
+  path: Assets/LEGO Data/NormalMaps/Head_Main.png
+  artifactKey: Guid(c771f6bcb8e144dc187a81ae1d7a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Head_Main.png using Guid(c771f6bcb8e144dc187a81ae1d7a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ccfcbda6ebbc605edad7aadb7b8d17') in 0.084267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/NormalMaps/Hip_Front.png
+  artifactKey: Guid(26ad29a2385b94f6db60a77476de033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Hip_Front.png using Guid(26ad29a2385b94f6db60a77476de033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b93081e8ffcb70506e5d600b1a86b') in 0.095699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LEGO Data/NormalMaps/Leg_L_Side.png
+  artifactKey: Guid(fa0d664bd3d7a45beacd29774af53ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Leg_L_Side.png using Guid(fa0d664bd3d7a45beacd29774af53ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961667aa0dc94b214f4824c2da658143') in 0.112460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO Data/NormalMaps/Leg_L_Main.png
+  artifactKey: Guid(1128e2c2f3a2e402d8babef5d47dda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Leg_L_Main.png using Guid(1128e2c2f3a2e402d8babef5d47dda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7e78eb6a49996dbf837104cdb5361d') in 0.036665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/NormalMaps/m13785_N.png
+  artifactKey: Guid(1a05ef48b21ce45cfa02f54a3f3b5668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m13785_N.png using Guid(1a05ef48b21ce45cfa02f54a3f3b5668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c94a1cd40193dc43010101b763e08df') in 0.028927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LEGO Data/NormalMaps/m17346_N.png
+  artifactKey: Guid(5227a7480bce1475097144e6e9911d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m17346_N.png using Guid(5227a7480bce1475097144e6e9911d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cc7bf7b8f4a9cb7d11fdc4be56054f') in 0.037024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO Data/NormalMaps/Leg_L_Front.png
+  artifactKey: Guid(94b285e68cf2d48d889113bb585e7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Leg_L_Front.png using Guid(94b285e68cf2d48d889113bb585e7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3383d3146524168709384c9c964c8046') in 0.038973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/NormalMaps/m3844_N.png
+  artifactKey: Guid(5a106e3c6a7ab4e2886d294a5c7480b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m3844_N.png using Guid(5a106e3c6a7ab4e2886d294a5c7480b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ac2954bf4c07a34f5ac5f254fa8259') in 0.066632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LEGO Data/NormalMaps/m40925_N.png
+  artifactKey: Guid(6feb3bfabad77483596652dc5852ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m40925_N.png using Guid(6feb3bfabad77483596652dc5852ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85fa8568425e918d33fc320058c8964') in 0.034634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LEGO Data/NormalMaps/m62696_N.png
+  artifactKey: Guid(25e2eb658178d4e3da0be24107e026cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m62696_N.png using Guid(25e2eb658178d4e3da0be24107e026cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d2e655ce33f9516964219989ba2812') in 0.029783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/NormalMaps/m26007_N.png
+  artifactKey: Guid(4b7f1580d45c049cfb99f1aa4f3ba163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m26007_N.png using Guid(4b7f1580d45c049cfb99f1aa4f3ba163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed692e1a26cb40f94acd189d9b8037a') in 0.127998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/NormalMaps/m93223_N.png
+  artifactKey: Guid(2d66a95ba904b401c9fc126958878dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m93223_N.png using Guid(2d66a95ba904b401c9fc126958878dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6dd4f2f93e5f073aeb40226758282c') in 0.050320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LEGO Data/NormalMaps/m93563_N.png
+  artifactKey: Guid(f6aacd37875b845d799b0809450738b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m93563_N.png using Guid(f6aacd37875b845d799b0809450738b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8806f57b98540220bb80c88d53def90f') in 0.036228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/NormalMaps/m98153_N.png
+  artifactKey: Guid(4e0a06c860ffc4d3fac5d38fc0a13cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m98153_N.png using Guid(4e0a06c860ffc4d3fac5d38fc0a13cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83229a9ec9486106431e961e529d5d1a') in 0.084807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LEGO Data/NormalMaps/m98385_N.png
+  artifactKey: Guid(fc67bf3dfdf914b278c077a56a6f735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m98385_N.png using Guid(fc67bf3dfdf914b278c077a56a6f735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddfc144031f8da3c1f6f9784b325e2c') in 0.108111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LEGO Data/NormalMaps/m50665_N.png
+  artifactKey: Guid(41c575cd354f04f7db50acb2208ba1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m50665_N.png using Guid(41c575cd354f04f7db50acb2208ba1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2584afd5f5da4fb23630c52888fd8c63') in 0.062678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/NormalMaps/Leg_R_Foot.png
+  artifactKey: Guid(21238e5fb588c4a8d979b0a800e9757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Leg_R_Foot.png using Guid(21238e5fb588c4a8d979b0a800e9757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8125d81380084049e76f7ee3b8f65cf') in 0.198095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/NormalMaps/m3624_N.png
+  artifactKey: Guid(d1e8b39dc192244249cb16b8435ef62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m3624_N.png using Guid(d1e8b39dc192244249cb16b8435ef62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab1de405412fd9d3f1456e46d1ce762') in 0.033431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/NormalMaps/m93069_N.png
+  artifactKey: Guid(0d2f06de2659442cc85b31d90e91cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m93069_N.png using Guid(0d2f06de2659442cc85b31d90e91cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a743c46c4f6bd8f7f03e9c23fbd0d9') in 0.050797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/NormalMaps/Leg_L_Foot.png
+  artifactKey: Guid(3dfafe2b63fe8499f85c67da444c150a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Leg_L_Foot.png using Guid(3dfafe2b63fe8499f85c67da444c150a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f32906d0767db866f700a79d096f0a5') in 0.107391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/NormalMaps/m2526_N.png
+  artifactKey: Guid(5de3a2b9b68034810a0847810603d0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/m2526_N.png using Guid(5de3a2b9b68034810a0847810603d0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59f3caf15ffbdd9a62738306b02526') in 0.102034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.408640 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Timer Trigger.png
+  artifactKey: Guid(39bb6c2190ef044e88f2fc3255ac9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Timer Trigger.png using Guid(39bb6c2190ef044e88f2fc3255ac9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2b75d12c4ff9a960204086f52f9ee4') in 0.066607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Timer Trigger Side.png
+  artifactKey: Guid(d00a9e46e3347409fb2f40a28d4f5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Timer Trigger Side.png using Guid(d00a9e46e3347409fb2f40a28d4f5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ead4fbd33387903262c80a514e2b8a6') in 0.037863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd
+  artifactKey: Guid(a7ec9e7ad8b847b7ae4510af83c5d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd using Guid(a7ec9e7ad8b847b7ae4510af83c5d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278122904f6008fe27d0355c0bb48f3d') in 0.024078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019852 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+  artifactKey: Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c101dfc519eb2a0f6a9656d5232917f') in 0.025989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008551 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png
+  artifactKey: Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png using Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f2875f71bffe8441a27483cb7ab62a') in 0.071438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png
+  artifactKey: Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png using Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b0eaa294d8c3ffdc401b17b6ba3b49') in 0.031655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close.png
+  artifactKey: Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close.png using Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1786bb4ec66fc0a6d3ac6dea70c81e') in 0.026600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.cinemachine/Gizmos/cm_logo.png
+  artifactKey: Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Gizmos/cm_logo.png using Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78e4face3ce00bf43e835215d93af61') in 0.027691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003b615ef1d3f4d7e33d9c6146b1483f') in 0.025449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.934877 seconds.
+  path: Assets/LEGO Data/Materials/Faces/86295.mat
+  artifactKey: Guid(f60f190fc342f4e819bc070f919c75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/86295.mat using Guid(f60f190fc342f4e819bc070f919c75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8ace3e4245007046a5a719a4ebf24d') in 0.933242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Crotch_Nya.mat
+  artifactKey: Guid(e789849440700451484aaf29e68489c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Crotch_Nya.mat using Guid(e789849440700451484aaf29e68489c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb602f2812103bdf46a7f492253edf53') in 0.052499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_LightRoyalBlue.mat
+  artifactKey: Guid(6c4613207a0d443a8aadebacb7b65cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_LightRoyalBlue.mat using Guid(6c4613207a0d443a8aadebacb7b65cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1277cdb49a1d01ac81f11dedfb7fff62') in 0.030517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Rocks_Material.mat
+  artifactKey: Guid(7fdc545978ce2e44f8bc3c7bfe8b1698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Rocks_Material.mat using Guid(7fdc545978ce2e44f8bc3c7bfe8b1698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c914cfaa2574d893e66f2bc7275c1a') in 2.386661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_Black.mat
+  artifactKey: Guid(5b7d3a813cca441eebfcb424683e7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_Black.mat using Guid(5b7d3a813cca441eebfcb424683e7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915878b5dac77c37c25b580afa76456d') in 0.035881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_BrightYellowGreen.mat
+  artifactKey: Guid(1ca9fdd15e80345dbb5127fadc551c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_BrightYellowGreen.mat using Guid(1ca9fdd15e80345dbb5127fadc551c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd47e1e487517ccaf2a08d8e04b336c') in 0.035410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_ReddishBrown.mat
+  artifactKey: Guid(def373ff2582cbb43ad660716b79fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_ReddishBrown.mat using Guid(def373ff2582cbb43ad660716b79fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e679183790cc56102ad45997ca98e1') in 0.035098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightRed.mat
+  artifactKey: Guid(fb1df3f2d1986499494c66717f2d2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightRed.mat using Guid(fb1df3f2d1986499494c66717f2d2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f79f28986299b980445f2a2524c2251') in 0.034006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Dirt_Rocks_Material.mat
+  artifactKey: Guid(b90772e3c520b1f4e8b3041793664bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Dirt_Rocks_Material.mat using Guid(b90772e3c520b1f4e8b3041793664bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc0be6c53b4372f0ba2007dd2ad3f06') in 0.208695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_EarthBlue.mat
+  artifactKey: Guid(8be6378f681c24512b7cf57342c6fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_EarthBlue.mat using Guid(8be6378f681c24512b7cf57342c6fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6025c050d8345f74568b9760efa58468') in 0.027693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lasha/Hip_Front_Lasha.mat
+  artifactKey: Guid(3329e9dbbc4ce4a89bf86050618323ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lasha/Hip_Front_Lasha.mat using Guid(3329e9dbbc4ce4a89bf86050618323ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7380f66552119b2073fea01cd0cea2') in 0.053115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_EarthBlue.mat
+  artifactKey: Guid(b87fac8c04e4148578aa5897beea75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_EarthBlue.mat using Guid(b87fac8c04e4148578aa5897beea75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d02fecf832f3be41fff15bf5751606') in 0.147418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Front_Eyezor.mat
+  artifactKey: Guid(9e49b58ab4c94447883021fe723e4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Eyezor/Hip_Front_Eyezor.mat using Guid(9e49b58ab4c94447883021fe723e4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b41db35fe0a4c3df9794ead680f53') in 0.034872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_NewDarkRed.mat
+  artifactKey: Guid(073a364c3377a4e71a543d9fc59a241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_NewDarkRed.mat using Guid(073a364c3377a4e71a543d9fc59a241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ec4a0ee8a3e02c7701fbe88814317e') in 0.024151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LEGO Data/Materials/Faces/641227.mat
+  artifactKey: Guid(105baa30f94044df393591356af16add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/641227.mat using Guid(105baa30f94044df393591356af16add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005c1bbe2942b6620a24e581604337e1') in 0.033116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_White.mat
+  artifactKey: Guid(f33b2e447f7194f98bc8c04a97c67fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_White.mat using Guid(f33b2e447f7194f98bc8c04a97c67fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d723a017878e6e1668da00e2a892a55') in 0.035387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_TitaniumMetallic.mat
+  artifactKey: Guid(a8f0e6334ffb044a39f49a158ef6ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_TitaniumMetallic.mat using Guid(a8f0e6334ffb044a39f49a158ef6ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf317f034de32c5fa56252c9c1996c6') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Leaves_Green_Material.mat
+  artifactKey: Guid(8787faed01d461043a97b78c9c54c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Leaves_Green_Material.mat using Guid(8787faed01d461043a97b78c9c54c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356f0ec3b73450e38bf3951430621ab6') in 0.219037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Cole/Hip_Crotch_Cole.mat
+  artifactKey: Guid(7aec4684043c644a48e76a25a2ecc051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Cole/Hip_Crotch_Cole.mat using Guid(7aec4684043c644a48e76a25a2ecc051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8460c811f8a0b0fffb9cac1c702943') in 0.033073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Kai/Hip_Crotch_Kai.mat
+  artifactKey: Guid(058a35af3e97c4d529b419e3ad48a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Kai/Hip_Crotch_Kai.mat using Guid(058a35af3e97c4d529b419e3ad48a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557dede45d5ebfa2e56e48dd30c43bbe') in 0.032398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Snow_Material.mat
+  artifactKey: Guid(6c28263956f8df94eb4d6ee9707aefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Snow_Material.mat using Guid(6c28263956f8df94eb4d6ee9707aefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec716bfb9a0e3d486091fa017bc7d918') in 0.213374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/fisherman.mat
+  artifactKey: Guid(cb00737b0222e0a4ca60059eb8052e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/fisherman.mat using Guid(cb00737b0222e0a4ca60059eb8052e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3675154171548ae18ebc36dace9ac7') in 0.045775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_EarthBlue.mat
+  artifactKey: Guid(d22783455252241aab2b70001c80961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_EarthBlue.mat using Guid(d22783455252241aab2b70001c80961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78863c1a4218faef1cd97d59eecf875') in 0.036487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_ReddishBrown.mat
+  artifactKey: Guid(24aca424b0fdea244ac606f2209d28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_ReddishBrown.mat using Guid(24aca424b0fdea244ac606f2209d28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3faaf743c43c1f08a2085e3f2b82bc') in 0.031030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_BrightRed.mat
+  artifactKey: Guid(02adcbc4336154bd6b8980b3263db7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_BrightRed.mat using Guid(02adcbc4336154bd6b8980b3263db7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea47f4f26795dbea061a344a48d9672') in 0.027572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_SilverMetallic.mat
+  artifactKey: Guid(a903ac298a566463ea46c33786e64d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_SilverMetallic.mat using Guid(a903ac298a566463ea46c33786e64d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5bd35678f84cb9df2661d53542b5f3') in 0.031803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Audio Action Side.mat
+  artifactKey: Guid(7dbfdc2bcda1e40c2b9ae939604be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Audio Action Side.mat using Guid(7dbfdc2bcda1e40c2b9ae939604be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dcc3614eb6a2dc154992093d624ad8') in 2.200219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Faces/622366.mat
+  artifactKey: Guid(88e161c47d6964df2b2e67da823c48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/622366.mat using Guid(88e161c47d6964df2b2e67da823c48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055362e43fa171ac6b1726e6a2ffd422') in 2.014158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_MediumLilac.mat
+  artifactKey: Guid(d935cd2c4c50044709fd1dfa89d6c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_MediumLilac.mat using Guid(d935cd2c4c50044709fd1dfa89d6c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac2e0bf80bde505f755a640a481c5a0') in 0.053728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Leaves_Yellow_Material.mat
+  artifactKey: Guid(e4592c48c7fe4a44bad77c876d75e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Leaves_Yellow_Material.mat using Guid(e4592c48c7fe4a44bad77c876d75e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48916e561906cc4a95a81475f61787c') in 0.703442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_EarthBlue.mat
+  artifactKey: Guid(c747ad121ee424a40a1b89afa9acae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_EarthBlue.mat using Guid(c747ad121ee424a40a1b89afa9acae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c43473c1d782ecb8eca3a1db2e770') in 0.251834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_EarthGreen.mat
+  artifactKey: Guid(7a0b6aeb8f1104da98ef3cd639ff0576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_EarthGreen.mat using Guid(7a0b6aeb8f1104da98ef3cd639ff0576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47508f84e5116c3a6f21f2f193d21321') in 0.258920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LEGO Data/Materials/Faces/609477.mat
+  artifactKey: Guid(697202dccf18243fe8c46e0a716260df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/609477.mat using Guid(697202dccf18243fe8c46e0a716260df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50668c5ad2f71b3ad32634025ad6cc58') in 0.373152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LEGO/Materials/Environment/Day Fog.mat
+  artifactKey: Guid(8653923df740d704c9cbccac8ca81959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Day Fog.mat using Guid(8653923df740d704c9cbccac8ca81959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a0add713d41430c56f11e5fade9f7') in 0.259488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightBluishGreen.mat
+  artifactKey: Guid(2e8024b6226934be1b2c09248ca0b327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightBluishGreen.mat using Guid(2e8024b6226934be1b2c09248ca0b327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd402b1b8247eee2d8617a5521fda66ee') in 0.032317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Explode Action Side.mat
+  artifactKey: Guid(e5392c50c83f14927ad40f6a390a314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Explode Action Side.mat using Guid(e5392c50c83f14927ad40f6a390a314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63794f55ef6c9e90db93bb95f9c6dbea') in 0.039794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_White.mat
+  artifactKey: Guid(0e45e535902144fbba3c2117d5dd21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_White.mat using Guid(0e45e535902144fbba3c2117d5dd21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c71bc605243034f603df4bb569a4bb') in 0.039352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO/Materials/Particles/Bubble.mat
+  artifactKey: Guid(5e0ad87604e384807b33bce7973a1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Bubble.mat using Guid(5e0ad87604e384807b33bce7973a1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20092aef30bff7ba35c5246a394db9a') in 0.772628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightBlue.mat
+  artifactKey: Guid(04073404c5c974da785b578179f84f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightBlue.mat using Guid(04073404c5c974da785b578179f84f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018b0a3b57e3802d1b9183ec24e50a2a') in 0.240083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_BrightBlue.mat
+  artifactKey: Guid(09706104c1db84e999d4cdca4fa2bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_BrightBlue.mat using Guid(09706104c1db84e999d4cdca4fa2bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e087a689478e00d2546811635b2a0d7') in 0.029947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LEGO Data/Materials/Faces/Eyezor.mat
+  artifactKey: Guid(f1e3adcbe710540eab49b259064db517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/Eyezor.mat using Guid(f1e3adcbe710540eab49b259064db517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea3dd1facff33adb50a276d29ceb9fc') in 0.141551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_NewDarkRed.mat
+  artifactKey: Guid(849b0fc0c1b534c9f9c06cb120ca49bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_NewDarkRed.mat using Guid(849b0fc0c1b534c9f9c06cb120ca49bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdb578e51feae872a7f998b8fa45017') in 0.083750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_EarthGreen.mat
+  artifactKey: Guid(e0b7e889015614ac4aac3f7bf7f449a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_EarthGreen.mat using Guid(e0b7e889015614ac4aac3f7bf7f449a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b7173c1acc461d28d84df6ce7723ec') in 0.107685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_MediumLilac.mat
+  artifactKey: Guid(b653a69f654734474aa4ec61a8817e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_MediumLilac.mat using Guid(b653a69f654734474aa4ec61a8817e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fcd9b51acad25eb4c8a4ede3db9382') in 0.105869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LEGO Data/Materials/Faces/643187.mat
+  artifactKey: Guid(42c215b1c364f48ad99a6356e9f17502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/643187.mat using Guid(42c215b1c364f48ad99a6356e9f17502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8617a9f829b2d35e0ed4a9d1a3380b') in 0.075980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightBluishGreen.mat
+  artifactKey: Guid(a28bdac5d03dc46a9bd844e917360013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightBluishGreen.mat using Guid(a28bdac5d03dc46a9bd844e917360013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ba2f9a647512d2f6a2bf077342ac24') in 0.133532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_MediumLilac.mat
+  artifactKey: Guid(b6822fc77ee2443908f1e6551c54b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_MediumLilac.mat using Guid(b6822fc77ee2443908f1e6551c54b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f932524cacfb6cae94b946f1916f8') in 0.022907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Material_Sphere.mat
+  artifactKey: Guid(ce8572ef25b89e344b09d27a8b17ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Material_Sphere.mat using Guid(ce8572ef25b89e344b09d27a8b17ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f372eb94df5925c865b9c4653c829e8') in 0.306405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_TitaniumMetallic.mat
+  artifactKey: Guid(89935dc583f9444d1818aa3552416cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_TitaniumMetallic.mat using Guid(89935dc583f9444d1818aa3552416cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea44c028d90a4b4e62b6eb73a2227d') in 0.027219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightBlue.mat
+  artifactKey: Guid(2a831a71ab20349fdb59735a330e18ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightBlue.mat using Guid(2a831a71ab20349fdb59735a330e18ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa1578fb9c287493739ed05c0f1ac8') in 0.084054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightYellowGreen.mat
+  artifactKey: Guid(fec204fd3d66249578ad9ae4dfb3c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightYellowGreen.mat using Guid(fec204fd3d66249578ad9ae4dfb3c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a27dd405971eb61bd9ecdea62de517') in 0.088234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_DarkGreen.mat
+  artifactKey: Guid(20b8031061ef54890855c62daa461882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_DarkGreen.mat using Guid(20b8031061ef54890855c62daa461882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18968b4b782342cabc1136d4703bac86') in 0.074932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Head_Black.mat
+  artifactKey: Guid(bdd655c5cbf6d4752b3692a5ae5479af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Head_Black.mat using Guid(bdd655c5cbf6d4752b3692a5ae5479af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5edad455d6ddb65a94b91ecc5aa92af') in 0.078214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Faces/630732.mat
+  artifactKey: Guid(02fac215a15e046a59645ea82725e31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/630732.mat using Guid(02fac215a15e046a59645ea82725e31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272d720a68b927ca41958b36dfcfc734') in 0.045524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_BrightYellowGreen.mat
+  artifactKey: Guid(6971db414c8f7453984e34762ee4efa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_BrightYellowGreen.mat using Guid(6971db414c8f7453984e34762ee4efa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b900330aad5dc6af59bb1a183e59fe') in 0.025528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_DarkGreen.mat
+  artifactKey: Guid(34dac4df67e7741b7addd1564f8948b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_DarkGreen.mat using Guid(34dac4df67e7741b7addd1564f8948b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb86c20c5cc949159a173e04690c69b') in 0.025069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nya/Hip_Crotch_Nya.mat
+  artifactKey: Guid(c71a165e4f39046d6b95fd14ca002dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nya/Hip_Crotch_Nya.mat using Guid(c71a165e4f39046d6b95fd14ca002dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b809f7e1b422e67c390a4de6932aa766') in 0.025732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Cole/Hip_Front_Cole.mat
+  artifactKey: Guid(d16f616f992a54245a7cb91d6d740d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Cole/Hip_Front_Cole.mat using Guid(d16f616f992a54245a7cb91d6d740d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561ed92813c6678fa85cd13e78ef3539') in 0.034024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Hip_Front_StoneArmyScout.mat
+  artifactKey: Guid(4efc5f27544f248a5a64de2f6ccce05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Hip_Front_StoneArmyScout.mat using Guid(4efc5f27544f248a5a64de2f6ccce05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd995a41020350ceddd2a342152919876') in 0.033359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LEGO/Models/Minifig.fbx
+  artifactKey: Guid(81c090246952449b7afa82f80664fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Minifig.fbx using Guid(81c090246952449b7afa82f80664fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04edc6bddf87ca3628affeea58185d3') in 1.650261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Input Trigger Side.mat
+  artifactKey: Guid(225bb35e52814460c9736fdc39c9ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Input Trigger Side.mat using Guid(225bb35e52814460c9736fdc39c9ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2365cd57aeaf381a6ca87792914151a2') in 0.030930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO Data/Materials/Faces/643224.mat
+  artifactKey: Guid(36bd264755b2e4e9c89d2d7d938d46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/643224.mat using Guid(36bd264755b2e4e9c89d2d7d938d46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7eb501dab6b5fb980e507b951f3c62') in 0.035144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_Black.mat
+  artifactKey: Guid(abef90a9ad1314d1795e230aacecaa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_Black.mat using Guid(abef90a9ad1314d1795e230aacecaa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612430ef61f40d9b7fa84188051d8629') in 0.027648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Leaves_Yellow_Material.mat
+  artifactKey: Guid(b83e97c782e31ff4c8a3c7f8b7086599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Grass_Leaves_Yellow_Material.mat using Guid(b83e97c782e31ff4c8a3c7f8b7086599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a665b50e64aed8359ca87dceccf14da7') in 0.242631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_White.mat
+  artifactKey: Guid(c4bbc89c9284645e7990ea11c736e66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_White.mat using Guid(c4bbc89c9284645e7990ea11c736e66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f56346c4bf9888426dba1d8cab5144') in 0.032664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/LEGO/Materials/Skyboxes/Day.mat
+  artifactKey: Guid(617d9be015db68348a623b01ea51a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Skyboxes/Day.mat using Guid(617d9be015db68348a623b01ea51a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3205ac1d8a866394d0fc00f086113c17') in 0.294409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Main_EarthGreen.mat
+  artifactKey: Guid(2931030d051344396b14cbbd7b3d11bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Main_EarthGreen.mat using Guid(2931030d051344396b14cbbd7b3d11bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350fb139b6e4b3e87261e59583d0be97') in 0.020493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightBluishGreen.mat
+  artifactKey: Guid(b9b4b05496b9e4e9db842631873d3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_BrightBluishGreen.mat using Guid(b9b4b05496b9e4e9db842631873d3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106c8d1a9b33ded88bf196b7eca84d4c') in 0.022621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nya/Hip_Front_Nya.mat
+  artifactKey: Guid(aff9478d66dd64f50806cc4b2e619799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nya/Hip_Front_Nya.mat using Guid(aff9478d66dd64f50806cc4b2e619799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9650c43f3464f40a4bd1f467641f51fc') in 0.167025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_Black.mat
+  artifactKey: Guid(97a73942a5b6e42b481ea17062e7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_Black.mat using Guid(97a73942a5b6e42b481ea17062e7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68910b4cc06d8d98b4d0b6e40df2b7c1') in 0.306245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Trigger Side.mat
+  artifactKey: Guid(32d1c180c23534cf3b63a49182f142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Trigger Side.mat using Guid(32d1c180c23534cf3b63a49182f142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cd4a0484be6ac00306a0041a7be203') in 0.207398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LEGO Data/Materials/Head.mat
+  artifactKey: Guid(4c9141f3255f14fdaadb7b2476942ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Head.mat using Guid(4c9141f3255f14fdaadb7b2476942ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af8e4335b95647e4058d9be63ba98eb') in 0.050327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Zane/Hip_Front_Zane.mat
+  artifactKey: Guid(c0bd8f30ab8924ae6b942360f5f3e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Zane/Hip_Front_Zane.mat using Guid(c0bd8f30ab8924ae6b942360f5f3e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44c5e4b3269bea4dead0019fd806e9a') in 0.043927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LEGO Data/Materials/Faces/Kai.mat
+  artifactKey: Guid(4e6cb12923aa24886a47db8c36be4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/Kai.mat using Guid(4e6cb12923aa24886a47db8c36be4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160751870272695da14e9aaab2f675c6') in 0.031254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Action Side.mat
+  artifactKey: Guid(d3989eeb7cd704bc8859106cebb9bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Action Side.mat using Guid(d3989eeb7cd704bc8859106cebb9bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d80f19ac81a959a8cebd705772da3b') in 0.026377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/gradient_color_palate.mat
+  artifactKey: Guid(736fa3bc7a8fcd94285040052bc293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/gradient_color_palate.mat using Guid(736fa3bc7a8fcd94285040052bc293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1f3419ce867518af788cc456bd5705') in 0.024047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Leaves_Green_Material.mat
+  artifactKey: Guid(c530e1b9556167144a57a41ad710c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Leaves_Green_Material.mat using Guid(c530e1b9556167144a57a41ad710c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017d146d9eb7d115faa28e7734c7993') in 0.220531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Rocks_Material.mat
+  artifactKey: Guid(46d2b34a547ad8b4da662f1618c5797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/Ground/Ground_Sand_Rocks_Material.mat using Guid(46d2b34a547ad8b4da662f1618c5797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b8f81009d610ba721ebcb855086ba1') in 0.399059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LEGO Data/Materials/Faces/638263.mat
+  artifactKey: Guid(954892ba2991b4fef952e84fd70526ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/638263.mat using Guid(954892ba2991b4fef952e84fd70526ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500fb156ac0b5558df6f32e86fc1de39') in 0.036903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/Materials/Head_Black.mat
+  artifactKey: Guid(fe502c6a4b2004e6996cab03263b82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Head_Black.mat using Guid(fe502c6a4b2004e6996cab03263b82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9805f3a3aa702714bbfb8cc06b839594') in 0.022638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LEGO Data/Materials/Faces/Cole.mat
+  artifactKey: Guid(6b8bc6e47513b40718464b34b369f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/Cole.mat using Guid(6b8bc6e47513b40718464b34b369f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79f5127571b58040f350ed46de4b21f') in 0.125755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Head_White.mat
+  artifactKey: Guid(71a462bea9d4b41f5bc81e8296bb1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Head_White.mat using Guid(71a462bea9d4b41f5bc81e8296bb1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39af36a4678c26e85f51c821ad445cb') in 0.025400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_Black.mat
+  artifactKey: Guid(4b28791221e0345b38978f2edeae85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Leg_L_Foot_Black.mat using Guid(4b28791221e0345b38978f2edeae85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79360a915da2f305fdcecbfea12c2510') in 0.028144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hand_NewDarkRed.mat
+  artifactKey: Guid(51d75511baf4b4bf4ab2367db9ba8d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hand_NewDarkRed.mat using Guid(51d75511baf4b4bf4ab2367db9ba8d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d955ed0f1095a0fcc7e163fd112602d') in 0.026152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/Materials/Faces/635922.mat
+  artifactKey: Guid(3310f77ecefef4191974cc7502afd98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/635922.mat using Guid(3310f77ecefef4191974cc7502afd98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c482d4b051bb8f4aaaea7bd016f2e6') in 0.118382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Hazard Action Side.mat
+  artifactKey: Guid(6dee11202b7164aa38e1e894beb81e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Hazard Action Side.mat using Guid(6dee11202b7164aa38e1e894beb81e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28e002fbc810f1b2ed158c044afc05c') in 0.061339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Front_MediumLilac.mat
+  artifactKey: Guid(b5ea6db33500546abaf69c396f9a0671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Front_MediumLilac.mat using Guid(b5ea6db33500546abaf69c396f9a0671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292088c0574804b76fd472fe9ee6fba3') in 0.073906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lloyd/Hip_Crotch_Lloyd.mat
+  artifactKey: Guid(bb7b62626e3bb442092419668dadb4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lloyd/Hip_Crotch_Lloyd.mat using Guid(bb7b62626e3bb442092419668dadb4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e05c1974a759cf9d80d741b20517880') in 0.031369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightYellowGreen.mat
+  artifactKey: Guid(720c0a1d6c54f4a709ccbf46e76379fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Arm_Main_BrightYellowGreen.mat using Guid(720c0a1d6c54f4a709ccbf46e76379fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03609d0e4530ce80a1089af2f1f875b1') in 0.022240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightRed.mat
+  artifactKey: Guid(130f58659a23b4041a03465b0b09614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Hip_Crotch_BrightRed.mat using Guid(130f58659a23b4041a03465b0b09614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f166338c2f2371ef78e9bc1c11b6c89') in 0.020335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.295380 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_01_D.fbx
+  artifactKey: Guid(e0a965e6a717448faa6401885547b520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_01_D.fbx using Guid(e0a965e6a717448faa6401885547b520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1811845ea591a5c23c108f020d499fb8') in 0.267427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.050228 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_01_PC.fbx
+  artifactKey: Guid(b748f5ffc899c4bacbf558c34bc31320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_01_PC.fbx using Guid(b748f5ffc899c4bacbf558c34bc31320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8323b0992ec63ec6ca0ed6432acb7b80') in 0.099299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.209751 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab
+  artifactKey: Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab using Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b702cff72b472be1e375506bc6906a') in 1.905429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab
+  artifactKey: Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab using Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212f56dad4b7243ae3b06920c0ba4bb0') in 0.406972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab
+  artifactKey: Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab using Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edfd67918d7aa37720983a12379a9de') in 0.207372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab
+  artifactKey: Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab using Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ff4b6022bf34c60d4ef6575c0fe646') in 0.401515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab
+  artifactKey: Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab using Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50451722173852569794234bc4e5a3f') in 0.195819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab
+  artifactKey: Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab using Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06530aa7ef71a6ece50b181efda2d71f') in 0.222436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab
+  artifactKey: Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab using Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebae45a525084970d039e8cb4c491a24') in 0.187197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1036.431922 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_02_PC.fbx
+  artifactKey: Guid(b2b6acd5079494b20a81c53caab98e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_02_PC.fbx using Guid(b2b6acd5079494b20a81c53caab98e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44550ad9cf9f0e853e057050e51c37') in 0.053424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565640 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_03_PC.fbx
+  artifactKey: Guid(8ec96ddb08106495596774d03b2972c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_03_PC.fbx using Guid(8ec96ddb08106495596774d03b2972c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5515e6dcf61e304969c1f2646a2215') in 0.047314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_04_P.fbx
+  artifactKey: Guid(e5d5b418e6bfd438da5cc5109f0d1d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/knob_04_P.fbx using Guid(e5d5b418e6bfd438da5cc5109f0d1d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c255f48b33ac173be8148e89aab6a7b') in 0.176329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.768755 seconds.
+  path: Assets/LEGO Data/Geometry/HatsAndHair/Hair/m13785.fbx
+  artifactKey: Guid(b704767f9984c48029d586a8d5522d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/HatsAndHair/Hair/m13785.fbx using Guid(b704767f9984c48029d586a8d5522d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350ad579fa7f56e5f6e00749f99a6ebc') in 0.034755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029379 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/Minifig.asset
+  artifactKey: Guid(93bbf9397f05043d390cc697f69a8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/Minifig.asset using Guid(93bbf9397f05043d390cc697f69a8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b3a401a53583f4318d4e74cbced512') in 0.029590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046965 seconds.
+  path: Assets/LEGO/Models/Rock 1.fbx
+  artifactKey: Guid(d09f36832543bf94f9c2516a58aeeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Rock 1.fbx using Guid(d09f36832543bf94f9c2516a58aeeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856c3e2c216ccd9d241752d1c8f78016') in 0.038415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.306010 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/pin_01_C.fbx
+  artifactKey: Guid(beaf9456f026746a1b78bf408fc7f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/pin_01_C.fbx using Guid(beaf9456f026746a1b78bf408fc7f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e3c652bcea0dc90c81b972175b6c81') in 0.032856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LEGO Data/Geometry/CommonParts/LOD0/pin_02_C.fbx
+  artifactKey: Guid(8c323f40daa1446a7b0084b42634166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/CommonParts/LOD0/pin_02_C.fbx using Guid(8c323f40daa1446a7b0084b42634166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738c9417b0b1b644ed4e40c829ee8c44') in 0.041740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.313929 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/30414.fbx
+  artifactKey: Guid(63bdc4ec97b3241abbe3249350bea619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/30414.fbx using Guid(63bdc4ec97b3241abbe3249350bea619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e7f8ba5e1e40fe2adc291c0216f84') in 0.042215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015233 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/32064.fbx
+  artifactKey: Guid(420b167d0d0e24b89ac2851b421514d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/32064.fbx using Guid(420b167d0d0e24b89ac2851b421514d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba191faeae808953be38c28bd78d2f') in 0.045415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/32028.fbx
+  artifactKey: Guid(57fa15438825c4c918907b5f28420e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/32028.fbx using Guid(57fa15438825c4c918907b5f28420e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723c7ab5d4db7b4c7eb709615d1b68bd') in 0.048363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274175 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/31733.fbx
+  artifactKey: Guid(152f3f18bf9e24f25a720ae626c05bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/31733.fbx using Guid(152f3f18bf9e24f25a720ae626c05bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f9c4bb863e25ef4580b35955d2febb') in 0.049093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/31577.fbx
+  artifactKey: Guid(74667cf70d5e04269925efaa6e9b87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/31577.fbx using Guid(74667cf70d5e04269925efaa6e9b87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9e4fe80d7e48205b849c7370077923') in 0.050147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3166.791374 seconds.
+  path: Assets/BOKI/LowPolyNature/Prefabs/models/tree_normal_yellow.prefab
+  artifactKey: Guid(117025cd122780a4ab2875cc1a385fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Prefabs/models/tree_normal_yellow.prefab using Guid(117025cd122780a4ab2875cc1a385fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78236c49fd56d29ec91644350496f95') in 0.081246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/BOKI/LowPolyNature/Prefabs/models/tree_pine_trunk_1.prefab
+  artifactKey: Guid(eac2191c20b7acb4f8c3ca88637b42f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Prefabs/models/tree_pine_trunk_1.prefab using Guid(eac2191c20b7acb4f8c3ca88637b42f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3757afbf3abed94ed0d93b35e14aa3f') in 0.433410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BOKI/LowPolyNature/Prefabs/models/tree_old_trunk_2.prefab
+  artifactKey: Guid(01aa2d296a1922b4897a2b9c37d96926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Prefabs/models/tree_old_trunk_2.prefab using Guid(01aa2d296a1922b4897a2b9c37d96926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7c155b056769acca9e8123863018c') in 0.024916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 225.199072 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/4697.asset
+  artifactKey: Guid(57969ae89989c4240921c1ba7e718ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/4697.asset using Guid(57969ae89989c4240921c1ba7e718ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec31aa9db47914e1323a2b6c20be4c74') in 0.103912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/28870.asset
+  artifactKey: Guid(f8df38e4ac1b60b4d907a67b572506d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/28870.asset using Guid(f8df38e4ac1b60b4d907a67b572506d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b8368045aea67160b1bb3108f7c614') in 0.049095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/6117.asset
+  artifactKey: Guid(256c3b0558479c048b03710e9cdff710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/6117.asset using Guid(256c3b0558479c048b03710e9cdff710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af32828f56fadc85791ecb13378dc24') in 0.030489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.806075 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/30151.asset
+  artifactKey: Guid(b453eff7233ef4cababec7b50b4f31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/30151.asset using Guid(b453eff7233ef4cababec7b50b4f31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318ee294537c66c5444a693635cc792') in 0.025446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/30153.asset
+  artifactKey: Guid(d57b9aae1b1fc4253ae5409f37f29ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/30153.asset using Guid(d57b9aae1b1fc4253ae5409f37f29ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79ee7d1b88b21be81e019759b6322bf') in 0.023611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.259115 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized3/LOD0/30173.asset
+  artifactKey: Guid(cd844b1882f8943c09d6bf2e24953bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized3/LOD0/30173.asset using Guid(cd844b1882f8943c09d6bf2e24953bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c178ee1ab936e54f1130f4bc794674c') in 0.020545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/30173.asset
+  artifactKey: Guid(ba02de83be6e14551930bd001317c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/30173.asset using Guid(ba02de83be6e14551930bd001317c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0296f502f68a057975730299274276') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010934 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/44676.asset
+  artifactKey: Guid(45bfca566f912824c976d2ea1da8102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/44676.asset using Guid(45bfca566f912824c976d2ea1da8102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40d4a6b08fde047ee42df21400e5b96') in 0.024657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007554 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized1/LOD0/60897.asset
+  artifactKey: Guid(7b4c717d643e74eb4b4514c906a566ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized1/LOD0/60897.asset using Guid(7b4c717d643e74eb4b4514c906a566ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305239141206868f4301e2324ac35b8d') in 0.026412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/LOD0/60897.fbx
+  artifactKey: Guid(b72cfa5f3aca241eb91b05424b2f78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/LOD0/60897.fbx using Guid(b72cfa5f3aca241eb91b05424b2f78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd322d4c9437941fb02a032cd24c185bd') in 0.062535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122540 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized1/LOD0/61252.asset
+  artifactKey: Guid(ba02f5a6223a84915880ba5911eb4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized1/LOD0/61252.asset using Guid(ba02f5a6223a84915880ba5911eb4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a6ce390aa18e05ebb0e6135c85729c') in 0.027196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/61252.asset
+  artifactKey: Guid(8508788a4ac084a6c8cf2d12dd7a89f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/61252.asset using Guid(8508788a4ac084a6c8cf2d12dd7a89f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9eb8c0fa5b81e705ee24177ceec4f8') in 0.048075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LEGO Data/Geometry/PickingMesh/69564.asset
+  artifactKey: Guid(c7e54583d5bb5fe4a882949a96729936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/PickingMesh/69564.asset using Guid(c7e54583d5bb5fe4a882949a96729936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f6876378950c510c8856b6ac6591ed') in 0.052731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134755 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/LOD0/614410.fbx
+  artifactKey: Guid(6f346c57fd1254c2fb89e407aacddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/LOD0/614410.fbx using Guid(6f346c57fd1254c2fb89e407aacddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62204b5f23670d5152708801fae8932') in 0.059404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/614410.asset
+  artifactKey: Guid(a9b80effdce0948d1b227bbcf61a62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/Legacy/Optimized2/LOD0/614410.asset using Guid(a9b80effdce0948d1b227bbcf61a62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c8ff401f3266e2be8f01cc96b0e74f') in 0.017573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.animation.rigging/Editor/Shapes/BallEffector.asset
+  artifactKey: Guid(e050c2b16fe384bd994474655a4b4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.animation.rigging/Editor/Shapes/BallEffector.asset using Guid(e050c2b16fe384bd994474655a4b4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8024a8934826cddcfc9ed06ccc1233d') in 0.148061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096866 seconds.
+  path: Packages/com.unity.animation.rigging/Editor/Shapes/CircleEffector.asset
+  artifactKey: Guid(b43e6ef97ee1b4e31be1a0187b9f4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.animation.rigging/Editor/Shapes/CircleEffector.asset using Guid(b43e6ef97ee1b4e31be1a0187b9f4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3c966e2d58ec39daa9ac2bf02b1e2c') in 0.027574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx
+  artifactKey: Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx using Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4d316034a7edfcb21fb1f9915f251c') in 0.127337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LEGO Data/Geometry/HatsAndHair/Hats/m10164.fbx
+  artifactKey: Guid(84a6ed21734d24c95a0250a56354d9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/HatsAndHair/Hats/m10164.fbx using Guid(84a6ed21734d24c95a0250a56354d9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef55d0689ccbcba64887b883f6b14b0') in 0.074637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.258308 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/30136.fbx
+  artifactKey: Guid(121672447dbca4a01bd5d4315f59bfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/30136.fbx using Guid(121672447dbca4a01bd5d4315f59bfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935d0fe7e95bb08602c9a3213bb43d14') in 0.057770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/27263.fbx
+  artifactKey: Guid(3d601f61057d94550bb56540f3ac6382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/27263.fbx using Guid(3d601f61057d94550bb56540f3ac6382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe341c15c5275caefc86b34dd930f00') in 0.041482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/26604.fbx
+  artifactKey: Guid(de656478f13694f7f9b30cc29f4dc1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/26604.fbx using Guid(de656478f13694f7f9b30cc29f4dc1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fac73d188e50cc0ae58890223aaa1e') in 0.088426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/15535.fbx
+  artifactKey: Guid(122157097600941f3b491ef24217038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/15535.fbx using Guid(122157097600941f3b491ef24217038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e16c42a8994ea81d27fe98a98b4ae23') in 0.054700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/27261.fbx
+  artifactKey: Guid(454099c586d5a4f068ae1fe9267f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/27261.fbx using Guid(454099c586d5a4f068ae1fe9267f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b65eaee39672d14514cac722b33bb5') in 0.110711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11477.fbx
+  artifactKey: Guid(fa11272100cf04dec9e5c441d3625f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11477.fbx using Guid(fa11272100cf04dec9e5c441d3625f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387bfccb3f58903f0692e4d375a67796') in 0.072473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/12885.fbx
+  artifactKey: Guid(02ac3af477c5b418a842670d458662b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/12885.fbx using Guid(02ac3af477c5b418a842670d458662b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5c2df87eefda8b7f18896a903ad69c') in 0.042570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/35386.fbx
+  artifactKey: Guid(dd89337d926644c6f9a03c0537396867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/35386.fbx using Guid(dd89337d926644c6f9a03c0537396867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fbf5a70e2a663bdb90f7517d499c2b') in 0.066248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/14395.fbx
+  artifactKey: Guid(26d078fbd49ce4cc680ee311b4f4319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/14395.fbx using Guid(26d078fbd49ce4cc680ee311b4f4319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd1fb1192730187e460218cab8338b7') in 0.081530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/15470.fbx
+  artifactKey: Guid(a55541ce05b0a524085e97b16b4493a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/15470.fbx using Guid(a55541ce05b0a524085e97b16b4493a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d41b349e0dfebdb4a28ac6e548fa12') in 0.056668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/30145.fbx
+  artifactKey: Guid(dbf7baec23b7d459d8ce023f3ad56390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/30145.fbx using Guid(dbf7baec23b7d459d8ce023f3ad56390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257cded65f2a0b3f810dfec49bafe78b') in 0.074910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/15712.fbx
+  artifactKey: Guid(043717614641b4e078960402bc82e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/15712.fbx using Guid(043717614641b4e078960402bc82e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e21c89781cfe9139ff88c1c9909c5df') in 0.048643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/26601.fbx
+  artifactKey: Guid(27348064f63fc4c45a0098cdb8e1566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/26601.fbx using Guid(27348064f63fc4c45a0098cdb8e1566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbfd1507532101c23db624d73ee6b2d') in 0.052670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/15429.fbx
+  artifactKey: Guid(fa62240de501b436cba1bab68f5a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/15429.fbx using Guid(fa62240de501b436cba1bab68f5a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4cffe66d63b04af442fd7d6c0ebe9f') in 0.065716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.793769 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/tree_normal.mat
+  artifactKey: Guid(ac909779b2958694d82f86729793271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/tree_normal.mat using Guid(ac909779b2958694d82f86729793271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f217bea193ec33b5fbe4d329f0eb3483') in 0.175244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/tree_weeping_willow.mat
+  artifactKey: Guid(6ca55d69c9438044e97550ce4d533ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/tree_weeping_willow.mat using Guid(6ca55d69c9438044e97550ce4d533ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f698e03a031a3f225746dc4433ac4931') in 0.034000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/BOKI/LowPolyNature/Materials/tree_pine.mat
+  artifactKey: Guid(60164c8e19e2b2f4cb33f9304a25151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Materials/tree_pine.mat using Guid(60164c8e19e2b2f4cb33f9304a25151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265f60486292230d7791f2e8cc55667') in 0.031623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283237 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_birch.fbx
+  artifactKey: Guid(8727e407d416cbc45ae90c489aeebf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_birch.fbx using Guid(8727e407d416cbc45ae90c489aeebf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a8a344320f2f96a476f6ad2c5d57e7') in 0.082599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_old_trunk_2.fbx
+  artifactKey: Guid(9fae1a2345b3ae64a9a8b473bed12bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_old_trunk_2.fbx using Guid(9fae1a2345b3ae64a9a8b473bed12bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c93806079771f9f989ec9c0d86983db') in 0.049143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_pine_trunk_1.fbx
+  artifactKey: Guid(fb85a73f9a4789241a92a3076583940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_pine_trunk_1.fbx using Guid(fb85a73f9a4789241a92a3076583940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d54b00013eb771e331526cbd98683e4') in 0.055711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_normal_naked.fbx
+  artifactKey: Guid(9653b399efa7b4f41a042501ecd11479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_normal_naked.fbx using Guid(9653b399efa7b4f41a042501ecd11479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f70e01f8a18d6622345591e45fe77e') in 0.071308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_pine_naked.fbx
+  artifactKey: Guid(36a01830a9d14734a88d5dba38f0070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_pine_naked.fbx using Guid(36a01830a9d14734a88d5dba38f0070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9ba278042c6ed402bdd0ba1da0635') in 0.053522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_pine.fbx
+  artifactKey: Guid(28ec0bb42af1dca4f955e51a6975f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_pine.fbx using Guid(28ec0bb42af1dca4f955e51a6975f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b718336b60f9929f1ac191e2cefa7d9') in 0.056836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_hero.fbx
+  artifactKey: Guid(efe1ff1cc19889a4593a70694d080451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_hero.fbx using Guid(efe1ff1cc19889a4593a70694d080451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097bd01d46a29ffc16fb91c1ff80f313') in 0.046652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_normal.fbx
+  artifactKey: Guid(0ff6844dceca3cd489090e94f0e1c6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_normal.fbx using Guid(0ff6844dceca3cd489090e94f0e1c6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1782dba22f33f9ecc128dcd2aaf33788') in 0.052875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_weeping_willow.fbx
+  artifactKey: Guid(569acb77775fd1a4bb306ebdcd43d719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_weeping_willow.fbx using Guid(569acb77775fd1a4bb306ebdcd43d719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9c1284bdff7c89b316a0434b4c1750') in 0.041945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_birch_naked.fbx
+  artifactKey: Guid(890259ec8fc012043a9ffc84cb594c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_birch_naked.fbx using Guid(890259ec8fc012043a9ffc84cb594c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2f6dd0c34f9066167e13bb27464fae') in 0.051295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_hero_naked.fbx
+  artifactKey: Guid(24d1c7dc810987346a978f33687b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_hero_naked.fbx using Guid(24d1c7dc810987346a978f33687b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcab77f53ebe4bbfa4b210eb8381d49d') in 0.049981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_old_trunk_1.fbx
+  artifactKey: Guid(ab071d9421874c448a041b7b95d3dea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_old_trunk_1.fbx using Guid(ab071d9421874c448a041b7b95d3dea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca526634057546f3f9b4cb1d7338222') in 0.045708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_old_log_1.fbx
+  artifactKey: Guid(7e3b425ab3478eb46b37a6f9b74bc91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_old_log_1.fbx using Guid(7e3b425ab3478eb46b37a6f9b74bc91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b51152c8173330387c2397e1d87e1a') in 0.042290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BOKI/LowPolyNature/Models/tree_pine_snow.fbx
+  artifactKey: Guid(8a3f1eab4dad19e49944349161e51d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOKI/LowPolyNature/Models/tree_pine_snow.fbx using Guid(8a3f1eab4dad19e49944349161e51d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7855b091f65e733ec23f1016b77cdf0d') in 0.049966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.760611 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/2.mat
+  artifactKey: Guid(58a9fc568ff3741068ed810e05962538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/2.mat using Guid(58a9fc568ff3741068ed810e05962538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93935ea880717379d094a09b505965') in 0.047637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/6.mat
+  artifactKey: Guid(91b402684a0f94f5da9e4ad4b8823add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/6.mat using Guid(91b402684a0f94f5da9e4ad4b8823add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a61581bd66871fa33b1a1cb5e9c984b') in 0.036284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/3.mat
+  artifactKey: Guid(c5768343e43fb4ad985b1c7175d55f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/3.mat using Guid(c5768343e43fb4ad985b1c7175d55f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad20f91a32dbce9cc6ef32d4340a789') in 0.028944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.lego.materials/Materials/5.mat
+  artifactKey: Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/5.mat using Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68a1f2e5e4d2035f50826ebc9eee291') in 0.026641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.709573 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/10.mat
+  artifactKey: Guid(0b4dfe3b30865435fa923fa02723db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/10.mat using Guid(0b4dfe3b30865435fa923fa02723db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98730abbd61a9056cc7ee0f64512acd1') in 0.023262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002660 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/12.mat
+  artifactKey: Guid(0f07e20722b114fbaa72b712d2431ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/12.mat using Guid(0f07e20722b114fbaa72b712d2431ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb060b2d88c5ca48a417964ab54ffcd') in 0.041370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/14.mat
+  artifactKey: Guid(46404690065034a0ca0ac31471aab7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/14.mat using Guid(46404690065034a0ca0ac31471aab7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8714788068e9a885c552c1cf83f355fa') in 0.024888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250619 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/16.mat
+  artifactKey: Guid(2182e4e6fcae3451c887454cb9d4c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/16.mat using Guid(2182e4e6fcae3451c887454cb9d4c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72ab5bcbee1629d78624837b39adf7c') in 0.022098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.lego.materials/Materials/18.mat
+  artifactKey: Guid(4d2dbeece50cde141b9441e668adda0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/18.mat using Guid(4d2dbeece50cde141b9441e668adda0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bb5ea4f12f8abd5bbe2c594ad81cfd') in 0.023008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003237 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/20.mat
+  artifactKey: Guid(85c829f7b3b8c46c795163ab7dc7b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/20.mat using Guid(85c829f7b3b8c46c795163ab7dc7b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb53cbeb0e661912c9f5f9c4f9b1de35') in 0.027591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007637 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/22.mat
+  artifactKey: Guid(c5c448a48a4a64223a170bac3ca8b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/22.mat using Guid(c5c448a48a4a64223a170bac3ca8b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a803a3e9f75fc828cad4925df908eda') in 0.024740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.lego.materials/Materials/23.mat
+  artifactKey: Guid(838eba2fdb3b14d4b9eb84d54ed6ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/23.mat using Guid(838eba2fdb3b14d4b9eb84d54ed6ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2330714c10aaefcd858dfe138406cce9') in 0.023191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185604 seconds.
+  path: Packages/com.unity.lego.materials/Materials/26.mat
+  artifactKey: Guid(282a32f423def7f469f8e2059ced608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/26.mat using Guid(282a32f423def7f469f8e2059ced608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91e7364e6b38d17884507e62165d391') in 0.025497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.lego.materials/Materials/28.mat
+  artifactKey: Guid(9c8d5663d81d2014a8a74fae2a597269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/28.mat using Guid(9c8d5663d81d2014a8a74fae2a597269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366e86466b438ff13ce56b4dbede011') in 0.036286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/36.mat
+  artifactKey: Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/36.mat using Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c2b84e3d900e2718a5b5ce694e087') in 0.024540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.lego.materials/Materials/38.mat
+  artifactKey: Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/38.mat using Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc3cd7fc6cf2150db645d798423dc67') in 0.036659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409831 seconds.
+  path: Packages/com.unity.lego.materials/Materials/40.mat
+  artifactKey: Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/40.mat using Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c403efe1ba1d7c74c7993a9eef8268') in 1.465873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.lego.materials/Materials/44.mat
+  artifactKey: Guid(bf5b1dfa278843d4583c6a16f804d3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/44.mat using Guid(bf5b1dfa278843d4583c6a16f804d3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e14641e28d5ba9bd98fae8436edd1ad') in 0.025879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/45.mat
+  artifactKey: Guid(9b8ecb64155b943808c68eb986159b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/45.mat using Guid(9b8ecb64155b943808c68eb986159b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76f6b3f09fc4d68032e9e186372bc62') in 0.035024 seconds 
