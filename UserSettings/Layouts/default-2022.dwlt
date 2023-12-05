@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37652
+  controlID: 65
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 37653
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 37654
+  controlID: 67
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,7 +332,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.666666}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 664.23566, y: 101.150826, z: 1008.9681}
+    m_Target: {x: 447.17856, y: 15.965538, z: 558.98615}
     speed: 2
-    m_Value: {x: 664.23566, y: 101.150826, z: 1008.9681}
+    m_Value: {x: 447.17856, y: 15.965538, z: 558.98615}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,7 +584,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 0.05001, y: 0.05001}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -600,18 +600,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 0.05001, y: 0.05001}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.030164972, y: 0.05463355, z: 0.0013393125, w: 0.9981591}
+    m_Target: {x: -0.0010309786, y: -0.39540988, z: 0.0009079957, w: -0.91865325}
     speed: 2
-    m_Value: {x: -0.03015964, y: 0.056124605, z: 0.0013844075, w: 0.9979672}
+    m_Value: {x: -0.0010308371, y: -0.39535558, z: 0.000907871, w: -0.9185271}
   m_Size:
-    m_Target: 355.1539
+    m_Target: 37.551033
     speed: 2
-    m_Value: 339.8602
+    m_Value: 37.551033
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -668,9 +668,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 94dee3ffa2dee3ff0450feff8e50feff9250feff78c2ffff7ac2fffff8c7fffffefaffffb8a40000cca40000
+      m_SelectedIDs: ba8f0100
+      m_LastClickedID: 102330
+      m_ExpandedIDs: 2049ffffda6cffff22eafffffefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -836,22 +836,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AllSkyFree/Deep Dusk
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/AllSkyFree/Deep Dusk
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\LegoGameIfWorks
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c551500
-    m_LastClickedID: 1398028
-    m_ExpandedIDs: 00000000da700000dc700000de700000e0700000e2700000e4700000e6700000e8700000ea700000ec700000a6a800000a55150000ca9a3b
+    m_SelectedIDs: cc2c0300
+    m_LastClickedID: 208076
+    m_ExpandedIDs: 00000000882a03008a2a03008c2a03008e2a0300902a0300922a0300942a0300962a0300982a03009a2a03009c2a0300c42c030000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -879,7 +879,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da700000dc700000de700000e0700000e2700000e4700000e6700000e8700000ea700000ec700000f0990000f4990000a6a8000000ca9a3b
+    m_ExpandedIDs: 00000000882a03008a2a03008c2a03008e2a0300902a0300922a0300942a0300962a0300982a03009a2a03009c2a0300
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -910,18 +910,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000ce5d0500484a0400e8d724004e7d000098a40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: lamp 1
+      m_OriginalName: lamp 1
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 793612
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
